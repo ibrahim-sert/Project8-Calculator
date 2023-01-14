@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -18,13 +18,13 @@ body {
   background: black;
   border-radius: 50px;
   color: white;
-  height: 840px;
+  height: 100vh;
   width: 500px;
   padding: 20px;
 }
 
 .display {
-  height: 250px;
+  height: 210px;
   width: 100%;
   text-align: right;
   padding: 20px;
@@ -41,12 +41,13 @@ body {
 
 .buttons-container {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 8px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
 }
 
 .button {
+  margin-left: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,8 +55,8 @@ body {
   border-radius: 50%;
   cursor: pointer;
   font-size: 45px;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   transition: all 0.3s ease-in-out;
 }
 
